@@ -91,3 +91,18 @@ variable "database_route_table_tags" {
 variable "nat_gateway_tags" {
   default = {}
 }
+variable "is_vpc_peering_required" {
+    type = bool
+    default = false # need to be set true if peering is required
+  
+}
+
+variable "acceptor_vpc_id" {
+    type = string
+    default = ""
+  
+}
+variable "vpc_peering_tags" {
+    default = {}
+  
+}
