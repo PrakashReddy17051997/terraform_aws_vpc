@@ -1,5 +1,5 @@
 module "Roboshop_VPC" {
-    source = "/Users/orakanti1997/Documents/DevOps/terraform_aws_vpc"
+    source = "git::https://github.com/PrakashReddy17051997/terraform_aws_vpc.git?ref=main"
     project_name = var.project_name
     environment = var.environment
     common_tags = var.common_tags
