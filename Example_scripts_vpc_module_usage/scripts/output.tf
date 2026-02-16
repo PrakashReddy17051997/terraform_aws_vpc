@@ -1,4 +1,3 @@
-output "avzs" {
-    value = module.Roboshop_VPC.avzs
-  
+output "azs" {
+  value = module.roboshop.azs
 }
